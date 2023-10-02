@@ -1,4 +1,4 @@
-import { run } from "../index";
+import { generateRandomCharacters } from "../index";
 import * as core from "@actions/core";
 import { mocked } from "jest-mock";
 
@@ -20,18 +20,16 @@ beforeEach(() => {
   }));
 });
 
-test("run function handles GraphQL error", async () => {
+test("function returns random chars", async () => {
   // Mock the input values
-  mockedGetInput.mockReturnValueOnce("{{ github.token }}");
-  mockedGetInput.mockReturnValueOnce("Test");
-  mockedGetInput.mockReturnValueOnce("5");
+  mockedGetInput.mockReturnValueOnce("50");
 
   // Run the `run` function
-  await run();
+  await generateRandomCharacters();
 
   // Assertions
-  expect(mockedGetInput).toHaveBeenCalledTimes(3);
-  expect(mockedSetOutput).toHaveBeenCalledWith("token", "{{ github.token }}");
-  expect(mockedSetOutput).toHaveBeenCalledWith("output1", "Test");
-  expect(mockedSetOutput).toHaveBeenCalledWith("output2", "5");
+  expect(mockedGetInput).toHaveBeenCalledTimes(1);
+  expect(mockedGetInput).toHaveBeenCalledWith("input1");
+  expect(mockedSetOutput).toHaveBeenCalledTimes(1);
+  expect(mockedSetOutput).toHaveBeenCalledWith("output1", expect.any(String));
 });
