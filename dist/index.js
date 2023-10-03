@@ -16,20 +16,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.run = void 0;
+exports.generateRandomCharacters = void 0;
 const core_1 = __nccwpck_require__(186);
-function run() {
+function generateRandomCharacters() {
     return __awaiter(this, void 0, void 0, function* () {
-        const token = (0, core_1.getInput)("GITHUB_TOKEN");
-        const input1 = (0, core_1.getInput)("input1");
-        const input2 = (0, core_1.getInput)("input2");
-        yield (0, core_1.setOutput)("token", token);
-        yield (0, core_1.setOutput)("output1", input1);
-        yield (0, core_1.setOutput)("output2", input2);
+        const numOfCharacters = (0, core_1.getInput)("input1");
+        const startRange = 0x0020;
+        const endRange = 0x007E;
+        const result = [];
+        for (let i = 0; i < Number(numOfCharacters); i++) {
+            const randomCodePoint = Math.floor(Math.random() * (endRange - startRange + 1)) + startRange;
+            const randomCharacter = String.fromCodePoint(randomCodePoint);
+            result.push(randomCharacter);
+        }
+        yield (0, core_1.setOutput)("output1", result.join(''));
     });
 }
-exports.run = run;
-run();
+exports.generateRandomCharacters = generateRandomCharacters;
+generateRandomCharacters();
 
 
 /***/ }),
