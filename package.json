@@ -1,7 +1,7 @@
 {
-  "name": "github-action-base-ts",
+  "name": "random-unicode-text-generator",
   "version": "1.0.0",
-  "description": "Base Repo for Typescript GitHub Actions",
+  "description": "Create random unicode text from an input range",
   "main": "index.js",
   "scripts": {
     "test": "jest",

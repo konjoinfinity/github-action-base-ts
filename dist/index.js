@@ -20,16 +20,25 @@ exports.generateRandomCharacters = void 0;
 const core_1 = __nccwpck_require__(186);
 function generateRandomCharacters() {
     return __awaiter(this, void 0, void 0, function* () {
-        const numOfCharacters = (0, core_1.getInput)("input1");
-        const startRange = 0x0020;
-        const endRange = 0x007E;
+        const numOfChars = (0, core_1.getInput)("numOfChars");
+        if (Number(numOfChars) < 0) {
+            throw new TypeError("numOfChars must be a positive integer");
+        }
+        // const startRange = 0x0020;
+        const startRange = (0, core_1.getInput)("startRange");
+        // const endRange = 0x007e;
+        const endRange = (0, core_1.getInput)("endRange");
+        if (Number(startRange) > Number(endRange)) {
+            throw new TypeError("startRange must be less than or equal to endRange");
+        }
         const result = [];
-        for (let i = 0; i < Number(numOfCharacters); i++) {
-            const randomCodePoint = Math.floor(Math.random() * (endRange - startRange + 1)) + startRange;
+        for (let i = 0; i < Number(numOfChars); i++) {
+            const randomCodePoint = Math.floor(Math.random() * (Number(endRange) - Number(startRange) + 1)) + Number(startRange);
             const randomCharacter = String.fromCodePoint(randomCodePoint);
             result.push(randomCharacter);
         }
-        yield (0, core_1.setOutput)("output1", result.join(''));
+        console.log(result.join(""));
+        yield (0, core_1.setOutput)("output", result.join(""));
     });
 }
 exports.generateRandomCharacters = generateRandomCharacters;
