@@ -1,5 +1,5 @@
-name: "GitHub Action Base Typescript - Action Name"
-description: "Action description"
+name: "Random Unicode Text Generator 🈸⫛⊹⦑✨⦖⏲↶⾍┣✌"
+description: "Create random unicode text from an input range"
 author: "Wesley Scholl"
 
 runs:
@@ -7,19 +7,19 @@ runs:
   main: "dist/index.js"
 
 inputs:
-  GITHUB_TOKEN:
-    description: "The GitHub token for authentication."
-    required: true
-    default: "{{ secrets.GITHUB_TOKEN }}"
-  input1:
-    description: "input1 description"
+  numOfChars:
+    description: "Number of unicode characters to output."
     required: false
-    default: "This string"
-  input2:
-    description: "input1 description"
+    default: "100"
+  startRange:
+    description: "Unicode character start range."
     required: false
-    default: '5'
+    default: "0"
+  endRange:
+    description: "Unicode character end range."
+    required: false
+    default: "50000"
 
 branding:
-  icon: "message-square"
-  color: "purple"
+  icon: "type"
+  color: "blue"
