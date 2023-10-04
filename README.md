@@ -2,7 +2,7 @@
 
 Create random unicode text from an input range
 
-[![Tests](https://img.shields.io/badge/tests-passing-gree.svg?logo=typescript&colorA=24292e&logoColor=white)](https://github.com/wesleyscholl/discussion-auto-responder/blob/main/src/__tests__/index.test.ts)  ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/wesleyscholl/discussion-auto-responder/.github%2Fworkflows%2Fnode.js.yml?colorA=24292e&logo=github) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wesleyscholl/discussion-auto-responder?colorA=24292e&logo=github) [![coverage badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/wesleyscholl/fce8ce592425f8cc73ea124451808ce3/raw/450280b16d4e7a800f402f2233b224a2a37c7086/github-action-base-ts__heads_main.json?&colorA=24292e&label=test%20coverage)](https://gist.github.com/wesleyscholl/10f0b77400703c4a65f38434106adf2d)  [![GitHub Marketplace](https://img.shields.io/badge/marketplace-Discussion%20Auto%20Responder-blue.svg?colorA=24292e&colorB=7F00FF&style=flat&longCache=true&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/discussion-auto-responder) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/name/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github) ![Dynamic YAML Badge](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwesleyscholl%2Fdiscussion-auto-responder%2Fmain%2F.github%2Fworkflows%2Frespond.yml&query=%24.jobs.autorespond.name&colorA=24292e&colorB=7F00FF&logo=yaml&label=description) [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) [![Code Linter: ESLint](https://img.shields.io/badge/code_linter-eslint-ff69b4.svg?logo=eslint&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) ![GitHub top language](https://img.shields.io/github/languages/top/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=typescript&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white)  ![GitHub Discussions](https://img.shields.io/github/discussions/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white) ![GitHub Release (with filter)](https://img.shields.io/github/v/release/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/author/wesleyscholl/discussion-auto-responder?colorA=24292e&colorB=7F00FF&logo=github) [![MIT](https://img.shields.io/badge/license-MIT-blue?colorA=24292e&colorB=7F00FF&logo=github)](https://raw.githubusercontent.com/wesleyscholl/discussion-auto-responder/main/LICENSE)
+[![Tests](https://img.shields.io/badge/tests-passing-gree.svg?logo=typescript&colorA=24292e&logoColor=white)](https://github.com/konjoinfinity/random-unicode-text-generator/blob/main/src/__tests__/index.test.ts)  ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/konjoinfinity/random-unicode-text-generator/.github%2Fworkflows%2Fnode.js.yml?colorA=24292e&logo=github) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/konjoinfinity/random-unicode-text-generator?colorA=24292e&logo=github) [![coverage badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/wesleyscholl/fce8ce592425f8cc73ea124451808ce3/raw/450280b16d4e7a800f402f2233b224a2a37c7086/github-action-base-ts__heads_main.json?&colorA=24292e&label=test%20coverage)](https://gist.github.com/wesleyscholl/10f0b77400703c4a65f38434106adf2d)  [![GitHub Marketplace](https://img.shields.io/badge/marketplace-Random%20Unicode%20Text%20Generator-blue.svg?colorA=24292e&colorB=7F00FF&style=flat&longCache=true&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/random-unicode-text-generator) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/name/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![Dynamic YAML Badge](https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/konjoinfinity/random-unicode-text-generator/main/action.yml&query=%24.description&colorA=24292e&colorB=7F00FF&logo=yaml&label=description) [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) [![Code Linter: ESLint](https://img.shields.io/badge/code_linter-eslint-ff69b4.svg?logo=eslint&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) ![GitHub top language](https://img.shields.io/github/languages/top/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=typescript&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white)  ![GitHub Discussions](https://img.shields.io/github/discussions/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white) ![GitHub Release (with filter)](https://img.shields.io/github/v/release/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/author/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) [![MIT](https://img.shields.io/badge/license-MIT-blue?colorA=24292e&colorB=7F00FF&logo=github)](https://raw.githubusercontent.com/konjoinfinity/random-unicode-text-generator/main/LICENSE)
 
 
 
@@ -18,45 +18,36 @@ In your workflow, to use this github action add a step like this to your workflo
 
 
 ```yaml
-- name: Run github-action
-  uses: wesleyscholl/github-action@v1.0.0
-  id: github-action
+- name: Run Unicode Generator
+  uses: konjoinfinity/random-unicode-text-generator@v1.0.0
+  id: generate-unicode
   with:
-   GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" # Required/optional - Description
-   input1: "string" # Required/optional - Description
-   input2: 10 # Required/optional - Description        
-       
-```
+   numOfChars: "50" # Optional - Number of unicode characters to output - Default = "100"
+   startRange: "0x1F300" # Optional - Unicode character start range - Default = "0"
+   endRange: "0x1F4FF" # Optional - Unicode character end range - Default = "50000"        
+```     
 
-**Subscribing to GitHub events to kick off GitHub action workflows:**
-
-```yaml
-on: 
-  discussion: 
-    types: [created] 
+##### Example Output
+```bash
+👒🍎🍇👿🏜💴🏝📸🌤🎛💌📅🐙🌬🏿🏾🏴🎵🍡💩👗🍘🍩🐎🐀🏢🐿💧💧💴🏭🌘📌🏞🎡🎴👑💵🐉🎱🌄👦🌉👼🏚🍴📺🐁🐒🍛
 ```
 
 ## Requirements
 
-Description about requirements to run this GitHub Action. 
+No extra configuration required to run this GitHub Action. 
 
-Configure:
 
-- Option 1
-- Option 2
-- Option 3
-
-- More detailed configuration step.
 
 
 
 
 ## Inputs
 
-| Name | Description | Requried? | Default |
-| --- | --- | --- | --- |
-| `GITHUB_TOKEN` | Ensure you create a PAT with `discussion: write` and `repo: write`, then add it as an github action secret in your repo. | **No** | `${{ secrets.GITHUB_TOKEN }}` | 
-| `comment_body` | The contents of the autoresponder comment in string format. | **No** | `"This comment was generated by the Discussion Autoresponder GitHub Action."` |
+| Name | Type | Description | Requried? | Default |
+| --- | --- | --- | --- | --- |
+| `numOfChars` | String | Number of unicode characters to output. | **No** | `"100"` | 
+| `startRange` | String  | Unicode character start range. Can be an hexadecimal or number (Ex. `"2345"`, `"0x1F300"`) | **No** | `"0"` |
+| `endRange` | String | Unicode character end range. Can be an hexadecimal or number (Ex. `"25000"`, `"0x1F4FF"`) | **No** | `"50000"` |
 
 
 
@@ -65,18 +56,17 @@ Configure:
 
 | Name | Description | How To Access |
 | --- | --- | --- |
-| `ghaVar1` | Description about output1. | `${{ steps.<your-step>.outputs.variable1}}` |
-| `ghaVar1` | Description about output2. | `${{ steps.<your-step>.outputs.variable2 }}` |
+| `output` | Unicode text ouput generated by the action. | `${{ steps.<your-step>.outputs.output}}` |
+
 
 
 
 
 #### Accessing Outputs 
 ```yml
-- name: Show Outputs
+- name: Show Output
   run: |
-    echo "variable1 = ${{ steps.<your-step>.outputs.variable1 }}"
-    echo "variable2 = ${{ steps.<your-step>.outputs.variable2 }}"
+    echo ${{ steps.<your-step>.outputs.output }}
 ```
 
 
@@ -84,14 +74,40 @@ Configure:
 
 ## Example
 
-Example [workflow](https://github.com/<your_github_username>/<github_repo>/<example_file>.yaml)
+Link to [workflow](https://raw.githubusercontent.com/wesleyscholl/auto/main/.github/workflows/new.yaml)
 
+```yaml
+name: Create Random Chinese From Unicode
 
+on: push
+
+jobs:
+  generate-unicode:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Create Random Chinese
+        id: createchinese
+        uses: konjoinfinity/random-unicode-text-generator@v1.0.0
+        with:
+          numOfChars: "50"
+          startRange: "0x4e00"
+          endRange: "0x9fff"
+
+      - name: Show Output
+        run: |
+          echo ${{ steps.createchinese.outputs.output }}
+```
+
+##### Example Output
+```yaml
+偼岪訸铪贠傩攚李抉表樸鎅勝傒谦櫥擝傝廞榻菸慺鯁鲺屗穀飾鈾楟惒娛宖噲淤瘁伹昇鼋弛螟停先铊奇綑嚠涫噝怲巳
+```
 
 ## Credits
 
-- [Link1](https://google.com)
+- [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 
 ### Inspired by:
-- [Link2](https://google.com)
-- [Link3](https://google.com)
+- [Create and Publish a GitHub Action in Typescript - Leonardo Montini](https://leonardomontini.dev/typescript-github-action/)
+- [Random Unicode](https://catonmat.net/tools/generate-random-unicode)
