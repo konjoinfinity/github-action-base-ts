@@ -1,18 +1,18 @@
 # Random Unicode Text Generator 🈸⫛⊹⦑✨⦖⏲↶⾍┣✌
 
-A GitHub Action for creating random unicode text from an input range
+### A GitHub Action for creating random unicode text from an input range 🈯️
 
 [![Tests](https://img.shields.io/badge/tests-passing-gree.svg?logo=typescript&colorA=24292e&logoColor=white)](https://github.com/konjoinfinity/random-unicode-text-generator/blob/main/src/__tests__/index.test.ts)  ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/konjoinfinity/random-unicode-text-generator/.github%2Fworkflows%2Fnode.js.yml?colorA=24292e&logo=github) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/konjoinfinity/random-unicode-text-generator?colorA=24292e&logo=github) [![coverage badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/wesleyscholl/fce8ce592425f8cc73ea124451808ce3/raw/450280b16d4e7a800f402f2233b224a2a37c7086/github-action-base-ts__heads_main.json?&colorA=24292e&label=test%20coverage)](https://gist.github.com/wesleyscholl/10f0b77400703c4a65f38434106adf2d)  [![GitHub Marketplace](https://img.shields.io/badge/marketplace-Random%20Unicode%20Text%20Generator-blue.svg?colorA=24292e&colorB=7F00FF&style=flat&longCache=true&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/random-unicode-text-generator) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/name/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![Dynamic YAML Badge](https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/konjoinfinity/random-unicode-text-generator/main/action.yml&query=%24.description&colorA=24292e&colorB=7F00FF&logo=yaml&label=description) [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) [![Code Linter: ESLint](https://img.shields.io/badge/code_linter-eslint-ff69b4.svg?logo=eslint&colorA=24292e&logoColor=white&colorB=7F00FF)](https://github.com/prettier/prettier) ![GitHub top language](https://img.shields.io/github/languages/top/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=typescript&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white)  ![GitHub Discussions](https://img.shields.io/github/discussions/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github&logoColor=white) ![GitHub Release (with filter)](https://img.shields.io/github/v/release/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/author/konjoinfinity/random-unicode-text-generator?colorA=24292e&colorB=7F00FF&logo=github) [![MIT](https://img.shields.io/badge/license-MIT-blue?colorA=24292e&colorB=7F00FF&logo=github)](https://raw.githubusercontent.com/konjoinfinity/random-unicode-text-generator/main/LICENSE)
 
 
 
 
-## About
+## About 📰
 
 A random unicode text generator GitHub action. Creates a unicode string based on an input range and length.
 
 
-## Usage
+## Usage ⌨️
 
 In your workflow, to use this github action add a step like this to your workflow:
 
@@ -27,21 +27,17 @@ In your workflow, to use this github action add a step like this to your workflo
    endRange: "0x1F4FF" # Optional - Unicode character end range - Default = "50000"        
 ```     
 
-##### Example Output
+##### Example Output ▶️
 ```bash
 👒🍎🍇👿🏜💴🏝📸🌤🎛💌📅🐙🌬🏿🏾🏴🎵🍡💩👗🍘🍩🐎🐀🏢🐿💧💧💴🏭🌘📌🏞🎡🎴👑💵🐉🎱🌄👦🌉👼🏚🍴📺🐁🐒🍛
 ```
 
-## Requirements
+## Requirements 🔧
 
 No extra configuration required to run this GitHub Action. 
 
 
-
-
-
-
-## Inputs
+## Inputs ⬅️
 
 | Name | Type | Description | Requried? | Default |
 | --- | --- | --- | --- | --- |
@@ -52,7 +48,7 @@ No extra configuration required to run this GitHub Action.
 
 
 
-## Outputs
+## Outputs ➡️
 
 | Name | Description | How To Access |
 | --- | --- | --- |
@@ -62,7 +58,7 @@ No extra configuration required to run this GitHub Action.
 
 
 
-#### Accessing Outputs 
+#### Accessing Outputs 👈🏻
 ```yml
 - name: Show Output
   run: |
@@ -72,7 +68,7 @@ No extra configuration required to run this GitHub Action.
 
 
 
-## Example
+## Example 📘
 
 Link to [workflow](https://raw.githubusercontent.com/wesleyscholl/auto/main/.github/workflows/new.yaml)
 
@@ -99,15 +95,16 @@ jobs:
           echo ${{ steps.createchinese.outputs.output }}
 ```
 
-##### Example Output
+##### Example Output ✅
 ```yaml
 偼岪訸铪贠傩攚李抉表樸鎅勝傒谦櫥擝傝廞榻菸慺鯁鲺屗穀飾鈾楟惒娛宖噲淤瘁伹昇鼋弛螟停先铊奇綑嚠涫噝怲巳
 ```
 
-## Credits
+## Credits 🏅
 
 - [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
+- [Coverage Badge with GitHub Actions - FINALLY!](https://dev.to/thejaredwilcurt/coverage-badge-with-github-actions-finally-59fa)
 
-### Inspired by:
+### Inspired By ⭐️
 - [Create and Publish a GitHub Action in Typescript - Leonardo Montini](https://leonardomontini.dev/typescript-github-action/)
 - [Random Unicode](https://catonmat.net/tools/generate-random-unicode)
