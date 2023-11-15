@@ -63,7 +63,7 @@ jobs:
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
-          gistID: fce8ce592425f8cc73ea124451808ce3
+          gistID: 13098473d275d559f1645534c1840ba8
           filename: random-unicode-text-generator__${{ env.BRANCH }}.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
