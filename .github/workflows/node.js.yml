@@ -64,7 +64,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: fce8ce592425f8cc73ea124451808ce3
-          filename: github-action-base-ts__${{ env.BRANCH }}.json
+          filename: random-unicode-text-generator__${{ env.BRANCH }}.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
           color: green
