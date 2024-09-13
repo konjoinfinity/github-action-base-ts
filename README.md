@@ -1,4 +1,4 @@
-# Random Unicode Text Generator 🈸⫛⊹⦑✨⦖⏲↶⾍┣✌
+# Random Unicode Text Generator 🚀🈸✨💜
 
 ### A GitHub Action for creating random unicode text from an input range 🈯️
 
